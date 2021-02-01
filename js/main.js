@@ -6,3 +6,5 @@ xhr.open('GET', 'https://github.com/Sergey-Svetashev/react_Simple-Store_tmp/blob
 xhr.withCredentials = true;
 xhr.responseType = 'json';
 xhr.send();
+
+console.log('Get it!')
