@@ -2,7 +2,7 @@
 //# sourceMappingURL=main.js.map
 
 let xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://github.com/Sergey-Svetashev/react_Simple-Store_tmp/blob/master/job.json' );
+xhr.open('GET', './job.json' );
 xhr.withCredentials = true;
 xhr.responseType = 'json';
 xhr.send();
